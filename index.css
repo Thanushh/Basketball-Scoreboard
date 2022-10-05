@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'digital-7';
+    src: url('digital-7.ttf');
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("game.jpg");
+    background-size: cover;
+    font-family: 'digital-7';
+}
+
+.score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+button {
+    background: none;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    color: #9AABD8;
+    margin-top: 26px;
+    font-family: 'digital-7';
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+button:hover{
+    border: 3px solid #0D99FF;
+    color: #0D99FF;
+}
+
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+#new-btn {
+    margin-top: 0;
+    background-color: green;
+    width: 185px;
+    height: 45px;
+    color: #0a0001;
+    font-weight: 600;
+}
+
+#new-btn:hover{
+    border: 5px solid #cb3853;
+    color: #cb3853;
+}
