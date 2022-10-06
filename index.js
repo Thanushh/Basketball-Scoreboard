@@ -3,36 +3,30 @@ let scoreG = document.getElementById("scoreG-el")
 let scoreHome = 0
 let scoreGuest = 0
 
+function activeClass(){
+    if(scoreHome > scoreGuest){
+        scoreH.classList.add("score-active")
+        scoreG.classList.remove("score-active")
+    }
+    else if(scoreHome == scoreGuest){
+        scoreH.classList.remove("score-active")
+        scoreG.classList.remove("score-active")
+    }
+    else{
+        scoreG.classList.add("score-active")
+        scoreH.classList.remove("score-active")
+    }
+}
 
-
-function plus1H() {
-    scoreHome += 1
+function increaseScoreH(score){
+    scoreHome += score
     scoreH.textContent = scoreHome
+    activeClass()
 }
-
-function plus2H() {
-    scoreHome += 2
-    scoreH.textContent = scoreHome
-}
-
-function plus3H() {
-    scoreHome += 3
-    scoreH.textContent = scoreHome
-}
-
-function plus1G() {
-    scoreGuest += 1
+function increaseScoreG(score){
+    scoreGuest += score
     scoreG.textContent = scoreGuest
-}
-
-function plus2G() {
-    scoreGuest += 2
-    scoreG.textContent = scoreGuest
-}
-
-function plus3G() {
-    scoreGuest += 3
-    scoreG.textContent = scoreGuest
+    activeClass()
 }
 
 function newG() {

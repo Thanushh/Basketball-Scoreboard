@@ -15,11 +15,18 @@ body {
     background: #0a0001;
     font-size: 90px;
     color: #F94F6D;
-    width: 120px;
+    width: 125px;
     margin: 20px;
-    width: 155px;
-    height: 120px;
+    height: 125px;
     border-radius: 5px;
+}
+
+.score-active{
+    border: 5px solid red;
+    width: 120px;
+    height: 120px;
+    margin: 15px;
+    text-align: center;
 }
 
 .container {

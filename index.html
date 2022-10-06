@@ -7,24 +7,24 @@
             <div class="column">
                 <h3>HOME</h3>
                 <h2 class="score" id="scoreH-el">0</h2>
-                <div>
-                    <button onclick="plus1H()">+1</button>
-                    <button onclick="plus2H()">+2</button>
-                    <button onclick="plus3H()">+3</button>
+                <div class="scoreActive">
+                    <button onclick="increaseScoreH(1)">+1</button>
+                    <button onclick="increaseScoreH(2)">+2</button>
+                    <button onclick="increaseScoreH(3)">+3</button>
                 </div>
             </div>
             <div class="column">
-                <h3>Guest</h3>
+                <h3>GUEST</h3>
                 <h2 class="score" id="scoreG-el">0</h2>
-                <div>
-                    <button onclick="plus1G()">+1</button>
-                    <button onclick="plus2G()">+2</button>
-                    <button onclick="plus3G()">+3</button>
+                <div class="scoreActive">
+                    <button onclick="increaseScoreG(1)">+1</button>
+                    <button onclick="increaseScoreG(2)">+2</button>
+                    <button onclick="increaseScoreG(3)">+3</button>
                 </div>
             </div>            
         </div>
         <div>
-            <button id="new-btn" onclick="newG()">New Game</button>
+            <button id="new-btn" onclick="newG()">NEW GAME</button>
         </div>
         <script src="index.js"></script>
     </body>
