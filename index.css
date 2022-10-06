@@ -19,6 +19,7 @@ body {
     margin: 20px;
     height: 125px;
     border-radius: 5px;
+    padding-top: 15px;
 }
 
 .score-active{
@@ -27,6 +28,7 @@ body {
     height: 120px;
     margin: 15px;
     text-align: center;
+    padding-top: 15px;
 }
 
 .container {
